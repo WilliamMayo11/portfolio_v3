@@ -1,0 +1,140 @@
+html {
+    background-image: url('../images/mayo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+    background-attachment: fixed;
+    height: 100%;
+    background-color: gray;
+    -webkit-backface-visibility: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url('../images/mayo2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+p {
+    font-family: 'Special Elite', cursive;
+    font-size: 22px;
+}
+@media only screen and (max-width: 700px) {
+    p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-height: 500px) {
+    p {
+        font-size: 14px;
+    }
+}
+hr {
+    color: white;
+    height: 2px;
+    width: 70vw;
+}
+.special-elite {
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+}
+.display-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: 50vw;
+    position: absolute;
+    margin: auto;
+    /*-webkit-backface-visibility: hidden;*/
+}
+.display-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 130%;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/mayo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+    /*-webkit-backface-visibility: hidden;*/
+}
+.display-box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-top: 200vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+.display-title1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+.display-title2 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Londrina Shadow', cursive;
+}
+.display-title3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Londrina Shadow', cursive;
+}
+.projects-title {
+    margin-top: 80px;
+}
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+.project-image {
+    padding: 20px;
+}
+.about-container {
+    padding: 40px;
+}
+.about {
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about-sub {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.project-spacer {
+    margin-top: 440px;
+}
