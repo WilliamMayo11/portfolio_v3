@@ -27,7 +27,6 @@ p {
         background-color: gray;
         -webkit-backface-visibility: hidden;
         -webkit-overflow-scrolling: touch;
-        
     }
 }
 @media only screen and (max-height: 500px) {
@@ -40,9 +39,13 @@ hr {
     height: 2px;
     width: 70vw;
 }
-.special-elite {
+.special-elite1 {
     font-family: 'Special Elite', cursive;
     font-size: 25px;
+}
+.special-elite2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 16px;
 }
 .display-box1 {
     display: flex;
@@ -82,13 +85,17 @@ hr {
     align-items: center;
     height: auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .7);
     margin-top: 40px;
+}
+.display-title-container {
+    display: inline;
 }
 .display-title1 {
     color: white;
     font-size: 40px;
     font-family: 'Londrina Shadow', cursive;
+    display: inline;
 }
 .display-title2 {
     color: white;
